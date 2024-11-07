@@ -1,0 +1,142 @@
+
+@font-face {
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+
+}
+
+/* Multimedia control styles */
+audio {
+         background-color: black;
+         display: block;
+         margin: 5px auto;
+	 text-align: center;
+         width: 95%%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	
+
+
+}
+
+section {
+	width: 100%;
+	height: 900px;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+
+}
+/* Nav */
+nav {
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	font-family: 'Shadows Into Light';
+}
+
+nav ul {
+	background-color: black;
+	padding: 10px;
+	opacity: 0.6;
+	list-style-type: none;	
+}
+
+ul li {
+	display: inline;
+	font-size: 20px;
+	font-family: 'Shadows Into Light', cursive;
+	color: black;	
+}
+
+ul li a{
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul li a:hover {
+	background-color: #a3a3c2
+}
+
+
+/* Body */
+.caption {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+
+}
+
+.caption span.border {
+  
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 25px;
+}
+
+.des {
+
+color: #777;
+background-color:white;
+text-align:center;
+padding:30px 120px;
+text-align: justify;
+}
+
+.border {
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.bottom {
+	position: absolute;
+	top: 90%;
+  	width: 100%;
+	color: white;
+
+}
+
+table {
+    
+    text-align: center;
+    width: 100%;
+   
+}
+
+/* BACKGROUND IMAGES */
+#tha {background-image: url('images/thai.jpg');}
+#ind {background-image: url('images/ind.jpg');}
+#mal {background-image: url('images/mal.jpg');}
+#jap {background-image: url('images/jap.jpg');}
+#chi {background-image: url('images/chi.jpg');}
+#phil {background-image: url('images/phil.jpg');}
+#camb {background-image: url('images/camb.jpg');}
+#hong {background-image: url('images/hong.jpg');}
+#viet {background-image: url('images/viet.jpg');}
+#aus {background-image: url('images/aus.jpg');}
+#newz {background-image: url('images/newz.jpg');}
+#sing {background-image: url('images/sing.jpg');}
+#uandc {background-image: url('images/uandc.jpg');}
+
+/*background styles */
+#tha, #ind, #mal, #jap, #chi, #phil, #camb, #hong, #viet, #aus, #newz, #sing, #uandc {
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+
+}
